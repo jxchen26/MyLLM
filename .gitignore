@@ -1,0 +1,29 @@
+# Virtual environments
+myenv/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Build output (from pip install -e .)
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
